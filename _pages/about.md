@@ -39,4 +39,8 @@ contact: misaki.mai.3e@kyoto-u.ac.jp
   header, #navbar, .navbar-brand {
     display: flex !important;
   }
+  /* Make the first name match the regular weight of the last name */
+  .navbar-brand .font-weight-bold {
+    font-weight: normal !important;
+  }
 </style>
