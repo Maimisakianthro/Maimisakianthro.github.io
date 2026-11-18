@@ -26,3 +26,12 @@ latest_posts:
 Social Anthropologist (DPhil) - religion, colonialism, language, healing
 Assistant Professor at Hakubi center, Kyoto University
 contact: misaki.mai.3e@kyoto-u.ac.jp
+
+<style>
+  header, #navbar {
+    display: none !important;
+  }
+  body.fixed-top-nav {
+    padding-top: 0 !important;
+  }
+</style>
