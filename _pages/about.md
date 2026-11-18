@@ -28,10 +28,15 @@ Assistant Professor at Hakubi center, Kyoto University
 contact: misaki.mai.3e@kyoto-u.ac.jp
 
 <style>
-  header, #navbar {
+  /* Hide only the navigation links and the mobile menu toggle button */
+  #navbar .navbar-nav,
+  #navbar .navbar-toggler,
+  #navbar .collapse {
     display: none !important;
   }
-  body.fixed-top-nav {
-    padding-top: 0 !important;
+  
+  /* Keep the header, navbar bar, and your name (navbar-brand) visible */
+  header, #navbar, .navbar-brand {
+    display: flex !important;
   }
 </style>
