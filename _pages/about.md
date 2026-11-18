@@ -44,3 +44,17 @@ contact: misaki.mai.3e@kyoto-u.ac.jp
     font-weight: normal !important;
   }
 </style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("h2").forEach(function (heading) {
+      if (heading.textContent.trim().toLowerCase() === "selected publications") {
+        const link = heading.querySelector("a");
+        if (link) {
+          link.textContent = "publications";
+        } else {
+          heading.textContent = "publications";
+        }
+      }
+    });
+  });
+</script>
