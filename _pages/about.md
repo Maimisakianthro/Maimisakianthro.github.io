@@ -47,13 +47,22 @@ contact: misaki.mai.3e@kyoto-u.ac.jp
   }
   
   /* Keep the header, navbar bar, and your name (navbar-brand) visible */
-  header, #navbar, .navbar-brand {
+  header, #navbar {
     display: flex !important;
   }
-  
-  /* Make the first name match the regular weight of the last name */
-  .navbar-brand .font-weight-bold {
-    font-weight: normal !important;
+  .navbar-brand {
+    display: inline-block !important;
+  }
+
+  /* Make the first name match the exact weight and font of the last name */
+  .navbar-brand,
+  .navbar-brand span,
+  .navbar-brand .fw-bold,
+  .navbar-brand .font-weight-bold,
+  .navbar-brand strong,
+  .navbar-brand b {
+    font-weight: 400 !important;
+    font-family: inherit !important;
   }
 </style>
 <script>
