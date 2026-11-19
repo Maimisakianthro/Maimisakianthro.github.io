@@ -64,6 +64,14 @@ contact: misaki.mai.3e@kyoto-u.ac.jp
     font-weight: 400 !important;
     font-family: inherit !important;
   }
+  
+  /* Make subheadings like Monographs and Peer Reviewed Journal Articles smaller */
+  .post article h3,
+  h3 {
+    font-size: 1.15rem !important;
+    margin-top: 1.2rem !important;
+    margin-bottom: 0.6rem !important;
+  }
 </style>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
