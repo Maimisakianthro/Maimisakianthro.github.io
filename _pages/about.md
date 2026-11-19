@@ -25,10 +25,11 @@ latest_posts:
 
 Social Anthropologist (DPhil) - religion, colonialism, language, healing<br>
 Assistant Professor at Hakubi center, Kyoto University<br>
+<br>
 contact: misaki.mai.3e@kyoto-u.ac.jp
 
 ## publications
-
+<br>
 #### Monographs
 * Misaki, M. (2026). Christianity, Colonialism and Indigenous History in French Polynesia. Series: Methodology and History in Anthropology (Oxford: Berghahn Books).
 
