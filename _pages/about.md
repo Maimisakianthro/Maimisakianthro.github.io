@@ -47,32 +47,22 @@ contact: misaki.mai.3e@kyoto-u.ac.jp
 * 2025 ‘Remixing “Localness”: An Analysis of French-Tahitian Code-Switching in DJ Remixes’ presented at Association for Social Anthropology in Oceania Annual Conference, Nadi 
 
 <style>
-  /* Hide only the navigation links and the mobile menu toggle button */
-  #navbar .navbar-nav,
+#navbar .navbar-nav,
   #navbar .navbar-toggler,
   #navbar .collapse {
     display: none !important;
   }
-  
-  /* Keep the header, navbar bar, and your name (navbar-brand) visible */
   header, #navbar {
     display: flex !important;
   }
   .navbar-brand {
     display: inline-block !important;
+    font-weight: 300 !important;
   }
-
-  /* Make the first name match the exact weight and font of the last name */
-  .navbar-brand,
-  .navbar-brand span,
-  .navbar-brand .fw-bold,
-  .navbar-brand .font-weight-bold,
-  .navbar-brand strong,
-  .navbar-brand b {
-    font-weight: 400 !important;
+  .navbar-brand * {
+    font-weight: inherit !important;
     font-family: inherit !important;
   }
-  
 </style>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
