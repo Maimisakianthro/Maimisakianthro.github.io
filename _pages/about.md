@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor of Anthropology, Kyoto University
+subtitle: 
 
 # profile:
 #  align: right
