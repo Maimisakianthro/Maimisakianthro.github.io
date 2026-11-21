@@ -79,3 +79,4 @@ contact: misaki.mai.3e@kyoto-u.ac.jp
     });
   });
 </script>
+<meta name="google-site-verification" content="YNvsc5raYWJf8cDus58qTIsdLEwv61MZ7wYg7m4HO3k" />
